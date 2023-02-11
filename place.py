@@ -907,3 +907,56 @@ x=x+30
 person((x,y))
 
 ####Ashwin End###
+
+#swapnil_SHARINGAN
+t = Turtle()
+def draw_circle(color, radius, x, y):
+  t.penup()
+  t.fillcolor(color,)
+  t.goto(x,y)
+  t.pendown()
+  t.begin_fill()
+  t.circle(radius)
+  t.end_fill()
+
+
+t = Turtle()
+t.color('red', 'blue')
+
+def eye():
+
+    draw_circle("Black",105, -500, -150)
+    draw_circle("Red", 98, -500, -145)
+    draw_circle("Black", 12.5, -500, -60)
+
+    t.color('Black', 'blue')
+
+
+    draw_circle("Black",15, -550, -107)
+    t.color('red', 'blue')
+    draw_circle("Red", 15, -560, -105)
+    t.color('Black', 'blue')
+    draw_circle("Black",14.5, -550, -100)
+
+
+    draw_circle("Black",15, -438, -52)
+    t.color('red', 'blue')
+    draw_circle("Red", 15, -445, -50)
+    t.color('Black', 'blue')
+    draw_circle("Black",14,-440, -60)
+
+
+
+
+    draw_circle("Black",15, -500, 5)
+    t.color('red', 'blue')
+    draw_circle("Red", 15, -505, 0)
+    t.color('Black', 'blue')
+    draw_circle("Black",14, -497, 2)
+    t.hideturtle()
+
+
+
+pensize(3)
+speed(9)
+eye()
